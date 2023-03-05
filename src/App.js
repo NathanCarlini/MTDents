@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="text-red-800">
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
