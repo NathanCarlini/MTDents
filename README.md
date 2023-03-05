@@ -17,7 +17,7 @@ Tailwind :
 React : 
  - https://reactjs.org/
  - https://beta.reactjs.org/
-
+ - raccourci de créa de composant : rfc
 ExpressJS : 
  - https://apprendre-la-programmation.net/node-js-javascript-backend/
  - https://expressjs.com/en/guide/routing.html

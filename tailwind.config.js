@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'cloudy': "url('./assets/background.png')",
+        'bulle': "url('./assets/bulle.png')"
+      },
+      colors: {
+        'btnBlue' : '#649DA6',
+      }
+    },
   },
   plugins: [],
 }
