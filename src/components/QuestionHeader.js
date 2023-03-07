@@ -9,5 +9,6 @@ export default function QuestionHeader({ input }) {
         <p className="mt-4">{input.text}</p>
       </div>
     </div>
+    
   );
 }

@@ -5,15 +5,14 @@ import BtnLayout from "./components/BtnLayout";
 import AnswerBtn from "./components/AnswerBtn";
 import QuestionHeader from "./components/QuestionHeader";
 import Questionnaire from "./components/Questionnaire";
-import EnTeteQuiz from "./components/EnTeteQuiz";
+import Quizz from "./components/page/Quizz";
 
 function App() {
   return (
     <div className="flex flex-col p-4 bg-cloudy h-screen" id="1">
       <img src={mtd} alt="" className="self-end" />
       <Header />
-      {/* <Questionnaire input={{ name: "bonbons", img: "../assets/tooth.png" }} /> */}
-      <EnTeteQuiz/>
+      <Quizz />
     </div>
   );
 }
