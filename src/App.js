@@ -5,6 +5,7 @@ import BtnLayout from "./components/BtnLayout";
 import AnswerBtn from "./components/AnswerBtn";
 import QuestionHeader from "./components/QuestionHeader";
 import Questionnaire from "./components/Questionnaire";
+import EnTeteQuiz from "./components/EnTeteQuiz";
 
 function App() {
   return (
@@ -12,18 +13,7 @@ function App() {
       <img src={mtd} alt="" className="self-end" />
       <Header />
       {/* <Questionnaire input={{ name: "bonbons", img: "../assets/tooth.png" }} /> */}
-      {/*<p className="mt-12 mx-4">
-        Bienvenue sur ton application préférée pour prendre soin de tes dents !
-      </p>
-      <>
-        <BtnLayout input={{ text: "test" }} />
-      </>
-      <div className="my-8">
-        <AnswerBtn input={{ text: "poop" }} />
-      </div>
-      <div className="my-8">
-        <QuestionHeader input={{ text: "poop ?" }} />
-      </div> */}
+      <EnTeteQuiz/>
     </div>
   );
 }

@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         'btnBlue' : '#649DA6',
+        'textBlue' : '#34717B',
       }
     },
   },
