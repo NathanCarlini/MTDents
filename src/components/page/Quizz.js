@@ -1,5 +1,6 @@
 import React from 'react'
 import AnswerBtn from '../AnswerBtn'
+import AnswerList from '../AnswerList'
 import EnTeteQuiz from '../EnTeteQuiz'
 import Header from '../Header'
 import QuestionHeader from '../QuestionHeader'
@@ -23,9 +24,8 @@ export default function Quizz() {
         </div>
 
         <div className='flex flex-col items-center'>
-          
-            <AnswerBtn input={{ text : "poopanswer"}} />
-            <ul>{listItems}</ul>
+
+            <AnswerList />
         </div>
     </div>
 

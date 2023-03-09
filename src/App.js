@@ -6,6 +6,9 @@ import AnswerBtn from "./components/AnswerBtn";
 import QuestionHeader from "./components/QuestionHeader";
 import Questionnaire from "./components/Questionnaire";
 import Quizz from "./components/page/Quizz";
+import AnswerList from "./components/AnswerList";
+
+
 
 function App() {
   return (
