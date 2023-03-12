@@ -1,10 +1,10 @@
-import logo from '../assets/logo.svg'
+import logo from '../assets/4x/logo2.png'
 
 export default function Header() {
   return (
     <>
-    <div className="flex w-full justify-center">
-    <img src={logo} alt="" className="logo" />
+    <div className="flex justify-center">
+    <img src={logo} alt="" className="logo h-3/5" />
     </div>
     </>
   )
