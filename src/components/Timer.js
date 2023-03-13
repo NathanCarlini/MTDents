@@ -50,11 +50,11 @@ const Timer = () => {
         // If you try to remove this line the 
         // updating of timer Variable will be
         // after 1000ms or 1sec
-        if (Ref.current) clearInterval(Ref.current);
-        const id = setInterval(() => {
-            startTimer(e);
-        }, 1000)
-        Ref.current = id;
+        // if (Ref.current) clearInterval(Ref.current);
+        // const id = setInterval(() => {
+        //     startTimer(e);
+        // }, 1000)
+        // Ref.current = id;
     }
   
     const getDeadTime = () => {
@@ -86,7 +86,7 @@ const Timer = () => {
     return (
         <div className="Timer">
             <h2>{timer}</h2>
-            <button onClick={onClickReset}>Reset</button>
+            <button onClick={startTimer}>Start</button>
         </div>
     )
 }

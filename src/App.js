@@ -7,6 +7,7 @@ import { accounts } from "./Data/accounts";
 import Connexion from "./components/page/Connexion";
 import AnswerList from "./components/AnswerList";
 import Timer from "./components/Timer";
+import Chronometre from "./components/page/Chronometre";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <img src={mtd} alt="" className="self-end" />
         <Header />
         {/* <Quizz /> */}
-        <Timer />
+        <Chronometre />
       </div>
     </div>
   );
