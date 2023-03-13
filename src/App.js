@@ -1,21 +1,20 @@
 import "./App.css";
 import Header from "./components/Header";
 import mtd from "./assets/mtd.png";
-import BtnLayout from "./components/BtnLayout";
-import AnswerBtn from "./components/AnswerBtn";
-import QuestionHeader from "./components/QuestionHeader";
-import Questionnaire from "./components/Questionnaire";
 import Quizz from "./components/page/Quizz";
-import AnswerList from "./components/AnswerList";
-
-
+import AccountList from "./components/AccountList";
+import { accounts } from "./Data/accounts";
+import Connexion from "./components/page/Connexion";
 
 function App() {
   return (
     <div className="flex flex-col p-4 bg-cloudy h-screen" id="1">
+      <div className="flex flex-col">
       <img src={mtd} alt="" className="self-end" />
       <Header />
-      <Quizz />
+      </div>
+      {/* <Quizz /> */}
+    <Connexion input={accounts}/>
     </div>
   );
 }
