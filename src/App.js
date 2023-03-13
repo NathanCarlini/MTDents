@@ -7,6 +7,7 @@ import QuestionHeader from "./components/QuestionHeader";
 import Questionnaire from "./components/Questionnaire";
 import Quizz from "./components/page/Quizz";
 import AnswerList from "./components/AnswerList";
+import Timer from "./components/Timer";
 
 
 
@@ -16,6 +17,8 @@ function App() {
       <img src={mtd} alt="" className="self-end" />
       <Header />
       <Quizz />
+
+      <Timer />
     </div>
   );
 }
