@@ -8,6 +8,7 @@ import Connexion from "./components/page/Connexion";
 import AnswerList from "./components/AnswerList";
 import Timer from "./components/Timer";
 import Chronometre from "./components/page/Chronometre";
+import Recette from "./components/page/Recette";
 
 function App() {
   return (
